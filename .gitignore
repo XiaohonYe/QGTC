@@ -1,0 +1,16 @@
+dataset/*
+datasets/*
+log/*
+__pycache__/*
+*build
+*dist
+*.egg-info
+*pdf
+*.so
+*.o
+*linux*
+.vscode*
+qgtc_graphs/*
+*.tar.gz
+*.log
+*.csv
