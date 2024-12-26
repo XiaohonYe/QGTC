@@ -8,7 +8,7 @@
 # 小组完成情况
 **小组成员**：周呈星 24214361	黄羽良24214310
 
-**分工信息**：我们选择复现YUKE WANG(https://github.com/YukeWang96)的相关工作，两人均参与对该作者仓库中工作的查阅与筛选，最终讨论后选择投稿在PPOPP 2022的“QGTC: Accelerating Quantized GNN via GPU Tensor Core”工作。初期由周呈星负责项目代码的复现，由黄羽良负责论文内容的剖析。后续进行讨论交流，两人分别从代码实现和论文脉络两方面向对方介绍该工作，并确定两人后续报告中内容分工。该工作技术点主要包括QGTC算法设计和具体实现中的六部分技术。算法设计部分，两人均会根据各自的理解进行阐述，核心技术点方面由周呈星阐述子图划分和批处理、3D堆叠位压缩和带宽优化的子图打包三项技术；由黄羽良阐述零块跳跃、非零块重用和层间内核融合三项技术。实验方面由黄羽良负责详细分析论文中图7中Cluster GCN 上的 DGL 和在batched GIN上的DGL中DGL与不同带宽下QGTC的性能差距；由周呈星负责详细分析论文中图7的中QGTC与cuBLASgemmEX (int8)在GNN 聚合内核吞吐量性能，和图9子图邻接矩阵大小对 QGTC 性能的影响。两人对该复现项目工作量相同。
+**分工信息**：我们选择复现[YUKE WANG的相关工作](https://github.com/YukeWang96)，两人均参与对该作者仓库中工作的查阅与筛选，最终讨论后选择投稿在PPOPP 2022的“QGTC: Accelerating Quantized GNN via GPU Tensor Core”工作。初期由周呈星负责项目代码的复现，由黄羽良负责论文内容的剖析。后续进行讨论交流，两人分别从代码实现和论文脉络两方面向对方介绍该工作，并确定两人后续报告中内容分工。该工作技术点主要包括QGTC算法设计和具体实现中的六部分技术。算法设计部分，两人均会根据各自的理解进行阐述，核心技术点方面由周呈星阐述子图划分和批处理、3D堆叠位压缩和带宽优化的子图打包三项技术；由黄羽良阐述零块跳跃、非零块重用和层间内核融合三项技术。实验方面由黄羽良负责详细分析论文中图7中Cluster GCN 上的 DGL 和在batched GIN上的DGL中DGL与不同带宽下QGTC的性能差距；由周呈星负责详细分析论文中图7的中QGTC与cuBLASgemmEX (int8)在GNN 聚合内核吞吐量性能，和图9子图邻接矩阵大小对 QGTC 性能的影响。两人对该复现项目工作量相同。
 
 **论文索引信息**：Wang Y, Feng B, Ding Y. QGTC: accelerating quantized graph neural networks via GPU tensor core[C]//Proceedings of the 27th ACM SIGPLAN symposium on principles and practice of parallel programming. 2022: 107-119.
 
