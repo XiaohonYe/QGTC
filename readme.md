@@ -52,7 +52,7 @@
 <p style="text-align: center;">图7 端到端性能比较：(a)在 Cluster GCN 上使用 DGL 和(b)在 Batched GIN 上使用 DGL。(c)与 TC 基于 cuBLASgemmEX（int8）的 GNN 聚合内核吞吐量性能（以 TFLOPs 为单位）进行比较，图中“QGTC_3”代表使用 3 位数据表示的节点嵌入矩阵的 QGTC。最上方为论文原图，下面依次为对(a)(b)子图的重汇和(c)子图的重绘。</p>
 
 <div style="display: flex; justify-content: center;">
-    <img src="./imgs/papers/9.png" alt="图片描述1" style="width: 40%; margin: 5px;" />
-    <img src="./imgs/ours/9.png" alt="图片描述2" style="width: 60%; margin: 5px;" />
+    <img src="./imgs/papers/9.png" alt="图片描述1" style="width: 38%; margin: 5px;" />
+    <img src="./imgs/ours/9.png" alt="图片描述2" style="width: 58%; margin: 5px;" />
 </div>
 <p style="text-align: center;">图9 邻接矩阵大小的影响。其中左边为论文原图，右边为我们绘制图。</p>
